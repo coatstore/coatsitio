@@ -11,42 +11,50 @@
   <link rel="icon" type="image/x-icon" href="./assets/coat.jpg">
 </head>
 <body>
-    <header>
-    <!-- Centered nav -->
-<ul class="nav justify-content-center">
 
-  <!-- Right-aligned nav -->
-  <ul class="nav justify-content-end">
-    
-    
-      <nav class="navbar navbar-expand-sm ">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img class="imagen" src="./assets/coat.jpg" alt="imagen coat"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#Catálogo">Catálogo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Contactenos">Contactenos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="niñas.html">Catalogo Niñas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Acercadenosotros">¿Quienes somos?</a>
-              </li>
-            
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
-    </header>
-</body>
+
+<header>
+<nav class="navbar navbar-expand-lg bg-white">
+  <div class="container">
+
+    <a class="navbar-brand" href="index.html">
+      <img class="imagen" src="./assets/coat.jpg" alt="imagen coat">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="menu">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#Catálogo">Catálogo</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#Contactenos">Contactenos</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="niñas.html">Catalogo Niñas</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#Acercadenosotros">¿Quienes somos?</a>
+        </li>
+        <li class="nav-item">
+<a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#carrito">
+🛒 Carrito (<span id="contador">0</span>)
+</a>
+</li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+</header>
 
 
     <!-- Carousel -->
@@ -99,7 +107,10 @@
                     <h5 class="card-title">Chaqueta Mediana Fox</h5>
                     <p class="card-text">Color Beige.</p>
                     <p class="fw-bold">$120.000</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button class="btn btn-primary"
+onclick="agregarCarrito('Chaqueta Mediana Fox',120000)">
+Agregar al carrito
+</button>
                 </div>
             </div>
         </div>
@@ -351,7 +362,9 @@ Sábados: 10:00 AM – 5:00 PM</p>
 
 
   <a href="https://wa.me/+573209088301?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-
+<a href="#" class="carrito-btn" data-bs-toggle="offcanvas" data-bs-target="#carrito">
+<i class="fa fa-shopping-cart carrito-icon"></i>
+</a>
 <script src="js/base.js"></script>
 
 <!-- Footer -->
@@ -468,4 +481,5 @@ Sábados: 10:00 AM – 5:00 PM</p>
     
   </footer>
   <!-- Footer -->
+</body>
 </html>
