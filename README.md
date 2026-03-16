@@ -7,5 +7,21 @@ Incluye catálogo de productos, carrito de compras y contacto directo por WhatsA
 
 ![alt text](image.png)
 
+## FUNCIONALIDADES 
+Catálogo de productos
 
+Carrito de compras
+
+Botón de compra por WhatsApp
+
+Carrusel de imágenes
+
+Formulario de contacto
+
+## Catalogo niñas
+![alt text](image-1.png)
+## Contactenos formulario
+![alt text](image-2.png)
+## ¿Quienes somos?
+![alt text](image-3.png)
 
