@@ -31,5 +31,5 @@ Formulario de contacto
 Este proyecto corresponde al diseño de la base de datos para una tienda de abrigos (Coat Store). Permite gestionar productos, clientes, pedidos, promociones y contacto.
 
 ## Modelo Entidad-Relación
-![alt text](image-4.png)
+![alt text](tareadg.png)
 
