@@ -25,11 +25,17 @@ Formulario de contacto
 ## ¿Quienes somos?
 ![alt text](image-3.png)
 
-# Coat Store - Base de Datos
-
+# CRUD de Catálogo
+Mi pagina permite desde vista de administrador, hacer el crud de mis productos.
 ## Descripción
-Este proyecto corresponde al diseño de la base de datos para una tienda de abrigos (Coat Store). Permite gestionar productos, clientes, pedidos, promociones y contacto.
+Pagina web que permite gestionar un catálogo de productos mediante operaciones CRUD (crear, leer, actualizar y eliminar).
 
-## Modelo Entidad-Relación
-![alt text](tareadg.png)
+## Características
+- Crear productos
+- Listar productos
+- Actualizar productos
+- Eliminar productos
 
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
